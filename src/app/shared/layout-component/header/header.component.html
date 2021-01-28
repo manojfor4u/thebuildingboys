@@ -1,0 +1,60 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over">
+    <label>THEBUILDINGBOYS</label>
+    <hr />
+    <nav>
+      <a routerLink="/" (click)="clickHandler()">Home</a>
+      <a routerLink="/services" (click)="clickHandler()">Services</a>
+      <a routerLink="/portfolio" (click)="clickHandler()">Portfolio</a>
+      <a routerLink="/team" (click)="clickHandler()">Team</a>
+      <a routerLink="/about" (click)="clickHandler()">About</a>
+      <a routerLink="/contact" (click)="clickHandler()">Contact</a>
+    </nav>
+  </mat-sidenav>
+  <mat-sidenav-content style="overflow: hidden;">
+    <mat-toolbar color="primary" style="height: 70px;">
+      <header>
+        <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+        <label>THEBUILDINGBOYS</label>
+        <label> Contact : 9113363283</label>
+        <nav>
+          <a routerLink="/">Home</a>
+          <a routerLink="/services">Services</a>
+          <a routerLink="/portfolio">Portfolio</a>
+          <a routerLink="/team">Team</a>
+          <a routerLink="/about">About</a>
+          <a routerLink="/contact">Contact</a>
+        </nav>
+      </header>
+    </mat-toolbar>
+
+    <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: 30px;">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{{ 'images/property_1.jpg' | assetsPath}}" alt="Los Angeles" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="{{ 'images/property_2.jpg' | assetsPath}}" alt="Chicago" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="{{ 'images/property_3.jpg' | assetsPath}}" alt="New York" width="1100" height="500">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
