@@ -8,6 +8,7 @@ import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [HomeComponent, AboutComponent, ServicesComponent, PortfolioComponent, TeamComponent, ContactComponent],
@@ -15,6 +16,8 @@ import { ContactComponent } from './contact/contact.component';
     CommonModule,
     DashboardRoutingModule,
     SharedModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class DashboardModule { }

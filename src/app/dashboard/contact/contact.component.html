@@ -1,4 +1,3 @@
-
 <section class="site-section bg-light bg-image">
     <div class="container">
         <div class="row mb-5">
@@ -9,36 +8,49 @@
         </div>
         <div class="row">
             <div class="col-md-7 mb-5">
-                <form action="#" class="p-5 bg-white">
+                <form [formGroup]="contactForm" class="p-5 bg-white">
                     <h2 class="h4 text-black mb-5">Contact Form</h2>
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <label class="text-black" for="fname">Full Name</label>
-                            <input type="text" id="fname" class="form-control">
+                            <label class="text-black" for="name">Full Name</label>
+                            <input type="text" formControlName="name" class="form-control">
+                            <control-messages style="margin-top: -10px;" [control]="contactForm.controls.name"
+                                [inputElmControl]="inputControls.contact.name">
+                            </control-messages>
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="email">Email</label>
-                            <input type="email" id="email" class="form-control">
+                            <input type="email" formControlName="email" class="form-control">
+                            <control-messages style="margin-top: -10px;" [control]="contactForm.controls.email"
+                                [inputElmControl]="inputControls.contact.email">
+                            </control-messages>
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <label class="text-black" for="subject">Mobile</label>
-                            <input type="subject" id="subject" class="form-control">
+                            <label class="text-black" for="mobile">Mobile</label>
+                            <input type="subject" formControlName="mobile" class="form-control">
+                            <control-messages style="margin-top: -10px;" [control]="contactForm.controls.mobile"
+                                [inputElmControl]="inputControls.contact.mobile">
+                            </control-messages>
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="7" class="form-control"
+                            <textarea name="message" cols="30" rows="7" formControlName="message" class="form-control"
                                 placeholder="Write your notes or questions here..."></textarea>
+                            <control-messages style="margin-top: -10px;" [control]="contactForm.controls.message"
+                                [inputElmControl]="inputControls.contact.message">
+                            </control-messages>
                         </div>
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                            <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white"
+                                (click)="submit()">
                         </div>
                     </div>
                 </form>

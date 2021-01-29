@@ -8,14 +8,14 @@ export let InputControls = {
     email: {
       type: 'text',
       label: 'Enter work email',
-      value: 'Work Email'
+      value: 'Email'
     },
     mobile: {
       type: 'text',
       label: 'Enter your Mobile',
-      value: 'Message'
+      value: 'Mobile'
     },
-    address: {
+    message: {
       type: 'text',
       label: 'Enter your Address',
       value: 'Message'
