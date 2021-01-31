@@ -4,12 +4,12 @@
     <div class="row mb-5">
       <div class="col-md-7 text-left">
         <h2 class="section-title mb-3">Portfolio</h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.
+        <p class="lead">All design are available with given price money
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -25,9 +25,9 @@
             <span class="position">Real Estate Agent</span>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -43,9 +43,9 @@
             <span class="position">Real Estate Agent</span>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -61,27 +61,21 @@
             <span class="position">Real Estate Agent</span>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4" *ngFor=" let item of employee">
         <div class="team-member">
           <figure>
-            <ul class="social">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <img src="{{ 'images/person_8.jpg' | assetsPath}}" alt="Image" class="img-fluid">
+            <img src="{{item.img}}" alt="Image"  class="img-fluid" style="height: 350px;">
           </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Kyla Stewart</h3>
-            <span class="position">Real Estate Agent</span>
+          <div class="p-3" style="background: white;">
+            <h3 class="mb-2 div_info">{{item.price}}</h3>
+            <span class="position" style="margin-left: 38%;">{{item.name}}</span>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -97,9 +91,9 @@
             <span class="position">Real Estate Agent</span>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -115,7 +109,7 @@
             <span class="position">Real Estate Agent</span>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
