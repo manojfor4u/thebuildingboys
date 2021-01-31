@@ -11,9 +11,12 @@ import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ThreeDeeElevationComponent } from './three-dee-elevation/three-dee-elevation.component';
 import { PlanComponent } from './plan/plan.component';
+import { InteriorComponent } from './interior/interior.component';
+import { PlumberComponent } from './plumber/plumber.component';
+import { ElectricianComponent } from './electrician/electrician.component';
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, ServicesComponent, PortfolioComponent, TeamComponent, ContactComponent, ThreeDeeElevationComponent, PlanComponent],
+  declarations: [HomeComponent, AboutComponent, ServicesComponent, PortfolioComponent, TeamComponent, ContactComponent, ThreeDeeElevationComponent, PlanComponent, InteriorComponent, PlumberComponent, ElectricianComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,

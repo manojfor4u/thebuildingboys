@@ -10,6 +10,9 @@ import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { ThreeDeeElevationComponent } from './three-dee-elevation/three-dee-elevation.component';
 import { PlanComponent } from './plan/plan.component';
+import { InteriorComponent } from './interior/interior.component';
+import { PlumberComponent } from './plumber/plumber.component';
+import { ElectricianComponent } from './electrician/electrician.component';
 
 const routes: Routes = [
   {
@@ -23,7 +26,10 @@ const routes: Routes = [
       { path: 'team', component: TeamComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'elevation', component: ThreeDeeElevationComponent },
-      { path: 'plan', component: PlanComponent }      
+      { path: 'plan', component: PlanComponent },  
+      { path: 'interior', component: InteriorComponent },
+      { path: 'plumber', component: PlumberComponent }, 
+      { path: 'electrician', component: ElectricianComponent },            
     ]
   }
 ];
