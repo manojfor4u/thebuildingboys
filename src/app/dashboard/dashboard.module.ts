@@ -14,9 +14,10 @@ import { PlanComponent } from './plan/plan.component';
 import { InteriorComponent } from './interior/interior.component';
 import { PlumberComponent } from './plumber/plumber.component';
 import { ElectricianComponent } from './electrician/electrician.component';
+import { ConstructionComponent } from './construction/construction.component';
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, ServicesComponent, PortfolioComponent, TeamComponent, ContactComponent, ThreeDeeElevationComponent, PlanComponent, InteriorComponent, PlumberComponent, ElectricianComponent],
+  declarations: [HomeComponent, AboutComponent, ServicesComponent, PortfolioComponent, TeamComponent, ContactComponent, ThreeDeeElevationComponent, PlanComponent, InteriorComponent, PlumberComponent, ElectricianComponent, ConstructionComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,

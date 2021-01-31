@@ -13,6 +13,7 @@ import { PlanComponent } from './plan/plan.component';
 import { InteriorComponent } from './interior/interior.component';
 import { PlumberComponent } from './plumber/plumber.component';
 import { ElectricianComponent } from './electrician/electrician.component';
+import { ConstructionComponent } from './construction/construction.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,9 @@ const routes: Routes = [
       { path: 'plan', component: PlanComponent },  
       { path: 'interior', component: InteriorComponent },
       { path: 'plumber', component: PlumberComponent }, 
-      { path: 'electrician', component: ElectricianComponent },            
+      { path: 'electrician', component: ElectricianComponent },
+      { path: 'construction', component: ConstructionComponent },            
+            
     ]
   }
 ];
