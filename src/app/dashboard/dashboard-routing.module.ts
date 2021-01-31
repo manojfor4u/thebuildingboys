@@ -7,7 +7,10 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
-import { ContactComponent } from './contact/contact.component'
+import { ContactComponent } from './contact/contact.component';
+import { ThreeDeeElevationComponent } from './three-dee-elevation/three-dee-elevation.component';
+import { PlanComponent } from './plan/plan.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -18,7 +21,9 @@ const routes: Routes = [
       { path: 'services', component: ServicesComponent },
       { path: 'portfolio', component: PortfolioComponent },
       { path: 'team', component: TeamComponent },
-      { path: 'contact', component: ContactComponent }    
+      { path: 'contact', component: ContactComponent },
+      { path: 'elevation', component: ThreeDeeElevationComponent },
+      { path: 'plan', component: PlanComponent }      
     ]
   }
 ];

@@ -21,42 +21,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="team-member">
-          <figure>
-            <ul class="social">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <img src="{{ 'images/ashok.jpeg' | assetsPath}}" alt="Image" class="img-fluid">
-          </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Ashok Yadav</h3>
-            <span class="position">Civil Engneer</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="team-member">
-          <figure>
-            <ul class="social">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <img src="{{ 'images/person_6.jpg' | assetsPath}}" alt="Image" class="img-fluid">
-          </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Dave Simpson</h3>
-            <span class="position">Real Estate Agent</span>
-          </div>
-        </div>
-      </div>
-
+      <!-- 
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="team-member">
           <figure>
@@ -73,9 +38,9 @@
             <span class="position">Software developer</span>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4" *ngFor=" let item of teamSize">
         <div class="team-member">
           <figure>
             <ul class="social">
@@ -84,50 +49,17 @@
               <li><a href="#"><span class="icon-linkedin"></span></a></li>
               <li><a href="#"><span class="icon-instagram"></span></a></li>
             </ul>
-            <img src="{{ 'images/aisha.jpeg' | assetsPath}}" alt="Image" class="img-fluid">
+            <img src="{{ item.img}}" alt="Image" class="img-fluid" style="height: 350px;">
           </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Aisha Yadav</h3>
-            <span class="position">Graphic Desiginer</span>
+          <div class="p-3" style="background-color: white;">
+            <h3 class="mb-2" style="text-align: center;">{{item.name}}</h3>
+            <h3 class="mb-2" style="text-align: center;">{{item.profile}}</h3>
+            <h3 class="mb-2" style="text-align: center;">{{item.experience}}</h3>
+            <!-- <span class="position">Graphic Desiginer</span> -->
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="team-member">
-          <figure>
-            <ul class="social">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <img src="{{ 'images/megi.jpeg' | assetsPath}}" style="height: 90px; width: 320px;" alt="Image" class="img-fluid">
-          </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Megha Yadav</h3>
-            <span class="position">I.I.T Mumbai</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="team-member">
-          <figure>
-            <ul class="social">
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <img src="{{ 'images/person_6.jpg' | assetsPath}}" alt="Image" class="img-fluid">
-          </figure>
-          <div class="p-3">
-            <h3 class="mb-2">Dave Simpson</h3>
-            <span class="position">Real Estate Agent</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
