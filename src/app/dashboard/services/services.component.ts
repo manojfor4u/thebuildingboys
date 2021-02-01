@@ -7,9 +7,65 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { 
+  serviceDesign;
+  constructor() {
+    this.serviceDesign = [
+      {
+        "id": 1,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_1.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      },
+      {
+        "id": 2,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_2.jpg",
+        "name": "2100 Sq Feet / Rs 6300"
+      },
+      {
+        "id": 3,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_3.jpg",
+        "name": "1600 Sq Feet / Rs 5000"
+      },
+      {
+        "id": 4,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_4.jpg",
+        "name": "1800 Sq Feet / Rs 5400"
+      },
+      {
+        "id": 5,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_5.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      },
+      {
+        "id": 6,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_6.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      },
+      {
+        "id": 7,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_7.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      },
+      {
+        "id": 8,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_8.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      },
+      {
+        "id": 9,
+        "price": "3 Rs Sq Feet",
+        "img": "assets/images/services/home_9.jpg",
+        "name": "2000 Sq Feet / Rs 6000"
+      }
+    ]
   }
-
   ngOnInit(): void {
     window.scrollTo(0, 0);
     console.log("inside services");
