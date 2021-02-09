@@ -10,18 +10,10 @@ export class TeamComponent implements OnInit {
   teamSize;
   constructor() {
     this.teamSize = [
-      // {
-      //   "id": 1,
-      //   "price": "Rs 1,000",
-      //   "img": "assets/images/team/aisha.jpeg",
-      //   "name": "Aisha Yadav",
-      //   "profile":"Contractor",
-      //   "experience":"3 Years Experience"
-      // },
       {
         "id": 2,
         "price": "Rs 1,000",
-        "img": "assets/images/team/ashok.jpeg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": " Er. Ashok Kumar",
         "profile":"Civil Engineer",
         "experience":"6 Years Experience"
@@ -29,7 +21,7 @@ export class TeamComponent implements OnInit {
       {
         "id": 3,
         "price": "Rs 2,000",
-        "img": "assets/images/team/manoj.jpeg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "Manoj Yadav",
         "profile":"Software Developer",
         "experience":"5 Years Experience"
@@ -37,7 +29,7 @@ export class TeamComponent implements OnInit {
       {
         "id": 4,
         "price": "Rs 2,000",
-        "img": "assets/images/team/uma.jpeg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "Uma Mahto",
         "profile":"Contractor",
         "experience":"12 Years Experience"
@@ -45,7 +37,7 @@ export class TeamComponent implements OnInit {
       {
         "id": 5,
         "price": "Rs 1,000",
-        "img": "assets/images/team/sagar.jpeg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "Sagar Kumar",
         "profile":"Plumber and Electrician",
         "experience":"15 Years Experience"
@@ -53,7 +45,7 @@ export class TeamComponent implements OnInit {
       {
         "id": 6,
         "price": "Rs 1,000",
-        "img": "assets/images/team/person_7.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "Abhishek Yadav",
         "profile":"Contractor",
         "experience":"12 Years Experience"

@@ -12,91 +12,91 @@ export class PortfolioComponent implements OnInit {
       { 
         "id": 1,
         "price": "Rs 1,000",
-        "img": "assets/images/bathroom design/bathroom_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"bathroom"
       },
       { 
         "id": 2,
         "price": "Rs 1,000",
-        "img": "assets/images/bathroom design/bathroom_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"bathroom"
       },
       { 
         "id": 3,
         "price":"Rs 2,000",
-        "img": "assets/images/hall design/hall_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Hall Design"
       },
       { 
         "id": 4,
         "price":"Rs 2,000",
-        "img": "assets/images/hall design/hall_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Hall Design"
       },
       { 
         "id": 5,
         "price": "Rs 1,000",
-        "img": "assets/images/kids room/kd_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Kids Room"
       },
       { 
         "id": 6,
         "price": "Rs 1,000",
-        "img": "assets/images/kids room/kd_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Kids Room"
       },
       { 
         "id": 7,
         "price": "Rs 2,000",
-        "img": "assets/images/interir design/interior_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Interior Design"
       },
       { 
         "id": 8,
         "price": "Rs 2,000",
-        "img": "assets/images/interir design/interior_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Interior Design"
       },
       { 
         "id": 9,
         "price": "Rs 1,000",
-        "img": "assets/images/kitchen/kitchen_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Kitchen Design"
       },
       { 
         "id": 10,
         "price": "Rs 1,000",
-        "img": "assets/images/kitchen/kitchen_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Kitchen Design"
       },
       { 
         "id": 11,
         "price": "Rs 2,000",
-        "img": "assets/images/parda/parda_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"bathroom"
       },
       { 
         "id": 12,
         "price": "Rs 2,000",
-        "img": "assets/images/parda/parda_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"bathroom"
       },
       { 
         "id": 13,
         "price": "Rs 1,000",
-        "img": "assets/images/pooja room/pooja_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Pooja Room"
       },
       { 
         "id": 14,
         "price": "Rs 2,000",
-        "img": "assets/images/pooja room/pooja_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Pooja Room"
       },
       { 
         "id": 15,
         "price": "Rs 8,000",
-        "img": "assets/images/small house/home_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name":"Small House"
       }
     ]

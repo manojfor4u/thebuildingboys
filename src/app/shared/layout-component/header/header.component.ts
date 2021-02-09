@@ -8,7 +8,7 @@ import {MatSidenav} from '@angular/material/sidenav';
 })
 export class HeaderComponent implements OnInit {
   @ViewChild('sidenav') sidenav: MatSidenav;
-
+  // sidenav;
   opened: boolean;
 
   constructor() { }
@@ -17,6 +17,7 @@ export class HeaderComponent implements OnInit {
   }
 
   clickHandler() {
+    console.log("hhhh")
     this.sidenav.close();
   }
 }

@@ -13,55 +13,55 @@ export class ServicesComponent implements OnInit {
       {
         "id": 1,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_1.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       },
       {
         "id": 2,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_2.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2100 Sq Feet / Rs 6300"
       },
       {
         "id": 3,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_3.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "1600 Sq Feet / Rs 5000"
       },
       {
         "id": 4,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_4.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "1800 Sq Feet / Rs 5400"
       },
       {
         "id": 5,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_5.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       },
       {
         "id": 6,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_6.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       },
       {
         "id": 7,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_7.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       },
       {
         "id": 8,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_8.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       },
       {
         "id": 9,
         "price": "3 Rs Sq Feet",
-        "img": "assets/images/services/home_9.jpg",
+        "img": "assets/images/imgs/img_23.jpg",
         "name": "2000 Sq Feet / Rs 6000"
       }
     ]

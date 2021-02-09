@@ -1,104 +1,26 @@
-
-<div class="py-5  site-section how-it-works" id="howitworks-section">
-  <div class="container">
-    <div class="row mb-5 justify-content-center">
-      <div class="col-md-7 text-center">
-        <h2 class="section-title mb-3">How We Works</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-house text-primary"></span>
-          <h3 class="text-dark">Home Design.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-coin text-primary"></span>
-          <h3 class="text-dark">3D/2D Design.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Construction.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Staad Design.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Layout Work.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Plumbing and Sanitary Drwing.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Renovation of Old Building.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Electric Drawing.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <div class="col-md-4 text-center">
-        <div class="pr-5">
-          <span class="custom-icon flaticon-home text-primary"></span>
-          <h3 class="text-dark">Finising Work.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <section class="site-section border-bottom">
-  <div class="container">
-    <!-- <div class="row mb-5">
-      <div class="col-md-7 text-left">
-        <h2 class="section-title mb-3">Services</h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.
-        </p>
-      </div>
-    </div> -->
-    <h1 style="text-align: center;font-weight: bold;margin-bottom: 50px;">Home Design with Given Price</h1>
+  <div class="container-fluid">
+    <h1 style="text-align: center;font-weight: bold;margin-bottom: 50px;">Services we are providing</h1>
     <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4" *ngFor=" let item of homeDesign">
-        <div class="team-member">
-          <figure>
+      <div class="col-md-6 col-lg-3 mb-4" *ngFor=" let item of servicesDesign">
+        <div class="team-member" style="cursor: pointer;">
+          <figure style="border: 2px solid;">
             <img src="{{ item.img}}" alt="Image" class="img-fluid" style="height: 350px;">
           </figure>
           <div class="prop-details p-3 div_info">
-            <div><strong class="price" st><h3 style="text-align: center;">{{item.price}}</h3></strong></div>
+            <div><strong class="price" st><h3 style="text-align: center;">{{item.name}}</h3></strong></div>
           </div>
         </div>
       </div>
     </div>
-          <h3 style="text-align: center;margin-bottom: 30PX;">INTERIOR DESIGN WITH GIVEN PRICE</h3>
+  </div>
+</section>
+
+<section class="site-section border-bottom">
+  <div class="container-fluid">
+    <h1 style="text-align: center;font-weight: bold;margin-bottom: 50px;"> Sample Of Home Design with Given Price</h1>
     <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4" *ngFor=" let item of interiorDesign">
+      <div class="col-md-6 col-lg-3 mb-4" *ngFor=" let item of homeDesign">
         <div class="team-member">
           <figure>
             <img src="{{ item.img}}" alt="Image" class="img-fluid" style="height: 350px;">
