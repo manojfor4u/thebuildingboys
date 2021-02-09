@@ -145,7 +145,7 @@ export class HomeComponent implements OnInit {
         "id": 2,
         "price": "Rs 16,000",
         "img": "assets/images/home/img_2.jpg",
-        "name":"CRICKTOR"
+        "name":"CRICKTER"
       },
       { 
         "id": 3,
@@ -175,7 +175,7 @@ export class HomeComponent implements OnInit {
         "id": 7,
         "price": "Rs 9,000",
         "img": "assets/images/home/img_7.jpg",
-        "name":"FEMALE CRICKTOR"
+        "name":"FEMALE CRICKTER"
       },
       { 
         "id": 8,
